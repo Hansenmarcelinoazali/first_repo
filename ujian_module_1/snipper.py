@@ -1,10 +1,4 @@
-#[[1, 2, 3],
-#[4, 5, 6],
-#[7, 8, 9]]
 
-#[[3, 6, 9],
-#[2, 5, 8],
-#[1, 4, 7]]
 
  def counterClockwise(data):
      temp1 =data[0][0] #bagian pertama adalah bagian ke 0

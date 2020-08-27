@@ -1,12 +1,11 @@
+#urai
 def urai_rajut(str):
-      s='';
-  for x in range (len(str)): #menggunakan len untuk stringnya (menggunakan fungsi loop)
-    for y in range (x): #pada range x
-      s = s +str[y]; #setiap kata akan selalu bertambah sesuai dengan str yang di tuju
-    s =s + str[x];
-  return s;
+    for i in range(len(str)): #menggunakan fusngi len untuk str
+        print(str[:i], end="") #setiap print akan mendapatkan printah selalu menambahkan dari satu sama lain sampai kalimat yang di tentukan habis atau selesai
 
-#print(Urai_rajut('Code'));
-#print(urai_rajut('python'));
-print(urai_rajut('purwadhika'));
+print(urai_rajut('code'))
+print(urai_rajut('purwadhika'))
+print(urai_rajut('python'))
+
+
 
